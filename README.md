@@ -1,5 +1,5 @@
 # jpaBasic
-## Basic CRUD with JPA, MariaDB, Hibernate<br/> and Testing Swagger
+## Basic CRUD with JPA, ~~MariaDB~~ -> H2DB, Hibernate<br/> and Testing Swagger
 
 ### Installation
 ```gitexclude
@@ -16,4 +16,8 @@ mac : mvn clean install
 ```gitexclude
 window : .\mvnw spring-boot:run
 mac : mvn spring-boot:run
+```
+### Package Architecture
+```gitexclude
+
 ```

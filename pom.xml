@@ -37,9 +37,8 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.mariadb.jdbc</groupId>
-            <artifactId>mariadb-java-client</artifactId>
-            <scope>runtime</scope>
+            <artifactId>h2</artifactId>
+            <groupId>com.h2database</groupId>
         </dependency>
         <dependency>
             <groupId>org.javassist</groupId>
