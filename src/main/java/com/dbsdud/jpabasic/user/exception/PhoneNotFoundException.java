@@ -2,9 +2,9 @@ package com.dbsdud.jpabasic.user.exception;
 
 import com.dbsdud.jpabasic.common.error.exception.EntityNotFoundException;
 
-public class UserNotFoundException extends EntityNotFoundException {
+public class PhoneNotFoundException extends EntityNotFoundException {
 
-    public UserNotFoundException(Long target) {
+    public PhoneNotFoundException(String target) {
         super(target + " is not found");
     }
 }
