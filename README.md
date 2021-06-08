@@ -19,5 +19,24 @@ mac : mvn spring-boot:run
 ```
 ### Package Architecture
 ```gitexclude
-
+ROOT
+  ㄴ src
+    ㄴ main
+      ㄴ java
+        ㄴ com.dbsdud.jpabasic
+          ㄴ common
+            ㄴ config
+              ㄴ resttemplate
+            ㄴ error
+              ㄴ exception
+            ㄴ response
+          ㄴ user
+            ㄴ controller
+            ㄴ dao
+            ㄴ domain
+            ㄴ dto
+            ㄴ exception
+            ㄴ model
+            ㄴ service
+      ㄴ resources
 ```
